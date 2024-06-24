@@ -1,0 +1,12 @@
+/*Para Inter, usa Arial como alternativa y la familia genérica sans-serif en caso de que el usuario o usuaria no tenga ninguna de
+las otras fuentes.
+Para Noto Serif, usa Times New Roman como alternativa y la familia serif genérica en caso de que el usuario o usuaria no tenga
+ninguna de las otras fuentes.*/
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px; /*Hace la altura de la linea*/
+}
