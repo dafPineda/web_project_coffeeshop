@@ -149,7 +149,7 @@ ninguna de las otras fuentes.
   flex-direction: column;
 }
 
-.recipies {
+.recipes {
   display: flex;
   margin: 0;
   flex-direction: column;
