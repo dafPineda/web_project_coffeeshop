@@ -65,12 +65,7 @@ ninguna de las otras fuentes.
   line-height: 20px;
 }
 
-.header__span-accent {
-  margin: 0;
-  margin-top: 183px;
-  margin-left: 80px;
-  margin-right: auto;
-  max-width: 709px;
+span {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
@@ -81,8 +76,7 @@ ninguna de las otras fuentes.
 
 .header__title {
   margin: 0;
-  margin-left: 80px;
-  margin-right: auto;
+  margin: 183px auto 0 80px;
   max-width: 709px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -94,10 +88,8 @@ ninguna de las otras fuentes.
 
 .header__description {
   margin: 0;
-  margin-left: 80px;
-  margin-right: auto;
+  margin: 28px auto 0 80px;
   max-width: 683px;
-  margin-top: 28px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
