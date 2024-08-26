@@ -242,7 +242,6 @@ span {
   max-width: 385px;
   margin-top: 80px;
   margin-bottom: 120px;
-  padding: auto;
   display: flex;
   flex-direction: column;
 }
