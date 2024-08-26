@@ -10,6 +10,7 @@ ninguna de las otras fuentes.
 #0A2850 (sección de recetas y fondo)*/
 .page {
   /* margin: 0; */
+  margin: auto;
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
