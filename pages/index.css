@@ -229,6 +229,7 @@ span {
 
 .reservation {
   margin: 0;
+  padding: 100px 0 120px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -240,7 +241,7 @@ span {
 }
 
 .reservation__title {
-  margin: 100px auto 80px;
+  margin: 0 auto 80px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -249,7 +250,7 @@ span {
 }
 
 .reservation__form {
-  margin: 0 auto 120px;
+  margin: 0 auto;
   max-width: 385px;
 }
 
