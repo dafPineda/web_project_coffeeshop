@@ -227,11 +227,15 @@ span {
   align-items: center;
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .reservation__title {
   margin: 0;
   margin-top: 100px;
+  margin-bottom: 80px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -239,10 +243,12 @@ span {
   line-height: 52px;
 }
 
-.form {
+.reservation__form {
   max-width: 385px;
-  margin-top: 80px;
   margin-bottom: 120px;
+}
+
+.form {
   display: flex;
   flex-direction: column;
 }
@@ -290,6 +296,11 @@ span {
   max-width: 385px;
   background-color: #2f80ed;
   color: white;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .form__button:hover {
