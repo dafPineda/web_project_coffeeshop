@@ -1,25 +1,15 @@
-/* Creamos index que tendra todos los styles de la carpeta blocks*/
-
-/* Url de normalize */
 @import url("../vendor/normalize.css");
 
-/* Url a page.css */
 @import url("../blocks/page.css");
 
-/* Aqui ponemos el css de header */
 @import url("../blocks/header.css");
 
-/* Y no se porque, pero aquí ponemos el nav de header */
 @import url("../blocks/nav.css");
 
-/* Aquí ponemos recipes */
 @import url("../blocks/recipes.css");
 
-/* Aquí ponemos reservation */
 @import url("../blocks/reservation.css");
 
-/* Tampoco se, pero aquí esta forms */
 @import url("../blocks/form.css");
 
-/* Aquí ponemos footer*/
 @import url("../blocks/footer.css");
