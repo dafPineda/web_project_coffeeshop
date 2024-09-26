@@ -72,3 +72,8 @@ span {
   list-style-type: none;
   padding: 0;
 }
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
