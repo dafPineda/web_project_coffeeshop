@@ -1,4 +1,8 @@
-/* Aquí va la sección de recipes */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
 .recipes {
   display: flex;
   margin: 0;
