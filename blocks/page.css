@@ -1,14 +1,14 @@
 /* Aquí ponemos los styles generales */
 
-.page {
+/* .page {
   margin: auto;
   min-width: 1100px;
   max-width: 1600px;
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 16px;
-  line-height: 20px; /*Hace la altura de la linea*/
+  line-height: 20px; /*Hace la altura de la linea*
   overflow: hidden;
-}
+} */
 
 .content {
   display: flex;
