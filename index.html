@@ -13,7 +13,6 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
 
     <title>Web_project_coffeeshop</title>
@@ -114,14 +113,6 @@
             </div>
           </div>
         </section>
-        <!-- #ffffff (fondo del encabezado, color de contraste de la fuente)
-#000000 (color de la fuente principal)
-#2f80ed (acento, botón)
-#838383 (bordes de entrada y marcadores de posición)
-#6F6F6F (horarios y dirección)
-#0A2850 (sección de recetas y fondo)
-#D9E7FF (fondo de reservation)
- -->
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar una mesa</h2>
           <form class="reservation__form form">
@@ -182,7 +173,41 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer>
+        <section class="footer">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo TripleTem"
+            class="footer__logo"
+          />
+          <p class="footer__copyright">©2024 Dafne Pineda</p>
+          <div class="footer__social">
+            <p clas="footer__social-heading">Redes sociales</p>
+            <ul class="footer__social-list">
+              <il>
+                <a class="footer__social-item">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </il>
+              <il>
+                <a class="footer__social-item">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="insta"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </il>
+            </ul>
+          </div>
+        </section>
+      </footer>
     </div>
   </body>
 </html>

@@ -1,0 +1,77 @@
+/* Aquí tenemos footer por mi solita, sin guía, ni apoyo */
+
+.footer {
+  background-color: #0a2750;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 60px 80px;
+  line-height: 20px;
+  color: white;
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-position: -20px;
+}
+
+.footer__logo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  height: 80px;
+  width: 100px;
+}
+
+.footer__social {
+  /* Este bloque solo es el div */
+  color: #fff;
+  margin-left: auto;
+}
+
+.footer__social-heading {
+  /* Solo es el titulo REDES */
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__social-list {
+  /* Aqui inicia la lista */
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-item {
+  /* Este contiene el link */
+  display: flex;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  align-items: center;
+  text-decoration: none;
+  column-gap: 10px;
+}
+
+.footer__list-item:hover {
+  color: #c1c1c1;
+}
+
+.footer__social-icon {
+  /* Estos son los iconos */
+  margin: 0;
+  height: 16px;
+  width: 16px;
+}
+
+.footer__copyright {
+  color: #fff;
+  margin: 0;
+  margin-top: 100px;
+}
